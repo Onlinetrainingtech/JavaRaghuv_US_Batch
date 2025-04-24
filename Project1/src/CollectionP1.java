@@ -6,8 +6,8 @@ import java.util.TreeSet;
 class Sample12
 {
 	//HashSet<Integer>list1=new HashSet<Integer>();
-	//TreeSet<Integer>list1=new TreeSet<Integer>();
-	ArrayList<Integer>list1=new ArrayList<Integer>();
+	TreeSet<Integer>list1=new TreeSet<Integer>();
+//	ArrayList<Integer>list1=new ArrayList<Integer>();
 	void process()
 	{
 		list1.add(1001);
@@ -19,7 +19,7 @@ class Sample12
 		System.out.println("Size of the data is::"+list1.size());
 		System.out.println("Remove the data is::"+list1.remove(1001));
 		System.out.println("After removing the size::"+list1.size());
-		System.out.println("Searching the data is::"+list1.contains(1001));
+		System.out.println("Searching the data is::"+list1.contains(1002));
 		Iterator h1=list1.iterator();
 		while(h1.hasNext())
 		{
